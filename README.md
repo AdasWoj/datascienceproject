@@ -1,3 +1,17 @@
+# Project Structure
+## 💲 Topic - Stock Market Prediction and Backtesting Model
+We are building a quantitative machine learning pipeline designed to forecast short-term market movements of the S&P 500 index and validate trading strategies through rigorous historical backtesting.
+
+## Data
+Our dataset is sourced via the yfinance API, spanning historical daily market data (OHLCV) from 2010 to 2026. By capturing multiple market regimes—including bull runs, crashes, and high-volatility periods—the model engineers technical indicators and statistical features to identify underlying price patterns while strictly preventing lookahead bias.
+
+## Target audience
+The platform is built for retail investors, quantitative analysts, and portfolio managers seeking data-driven decision support to navigate market uncertainty and manage portfolio risk effectively.
+
+## Application output
+Through an interactive dashboard, the application delivers short-term directional forecasts for the S&P 500 alongside confidence metrics, feature importance explanations, and simulated strategy performance against a standard Buy-and-Hold benchmark.
+
+
 # End-to-End Data Science Project Template
 ## 📁 Repository Structure
 
